@@ -1,0 +1,39 @@
+.navbar__top {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(0deg, #3F3F3F, #3F3F3F),
+    linear-gradient(180deg, rgba(211, 211, 211, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
+    
+    .top__wrapper {
+      width: 100%;
+      display: flex;
+      .top__logo {
+        display: flex;
+        width: 40%;
+        color: #FFFFFF;
+        gap: 10px;
+        p {
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+      .top__context {
+        p {
+          font-size: 14px;
+          font-weight: 400;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  
+  
+  @media(max-width:715px){
+      .navbar__top{
+         .top__wrapper{
+          .top__context{
+              display: none;
+          }
+         } 
+      }
+  }
