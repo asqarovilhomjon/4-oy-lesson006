@@ -1,29 +1,29 @@
-.navbar__subtitle{
+.navbar__banner{
     width: 100%;
-    background: #f5f5f5;
-    .subtitle__wrapper{
+    background: #F5F5F5;
+    .banner__wrapper{
         width: 100%;
-        // height: 50px;
         padding: 11px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .subtitle__contect{
+        .banner__content{
             p{
                 max-width: 90px;
-                color: #333;
+                color: #333333;
                 font-weight: 400;
                 font-size: 14px;
+                line-height: 14px;
             }
         }
     }
 }
 
 @media(max-width:1000px){
-    .navbar__subtitle{
-        .subtitle__wrapper{
+    .navbar__banner{
+        .banner__wrapper{
             overflow: auto;
-            .subtitle__contect{
+            .banner__content{
                 min-width: 100px;
             }
         }
